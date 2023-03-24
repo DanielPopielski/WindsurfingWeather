@@ -9,7 +9,7 @@ You also need apiBaseUrl in application.yml: https://api.weatherbit.io/v2.0/fore
 
 Usage
 
-To run the app, simply execute the application. The app will retrieve the weather data for the following 5 cities:
+To run the app, first execute the application. After launching the application, you can access it by going to http://localhost:8080/weather?date=yyyy-MM-dd in your browser, where date must be in the format yyyy-MM-dd and can be up to 6 days in the future. Alternatively, you can use a tool like Postman to make a GET request to the same URL. The app will retrieve the weather data for the following 5 cities:
 
    Jastarnia,
    Bridgetown,
